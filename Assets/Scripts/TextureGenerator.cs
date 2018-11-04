@@ -17,8 +17,6 @@ public static class TextureGenerator {
         int width = heightMap.values.GetLength(0);
         int height = heightMap.values.GetLength(1);
 
-        Texture2D texture = new Texture2D(width, height);
-
         Color[] colorMap = new Color[width * height];
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
